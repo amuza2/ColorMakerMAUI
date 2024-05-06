@@ -8,6 +8,9 @@ namespace ColorMakerMAUI
         public static MauiApp CreateMauiApp()
         {
             var builder = MauiApp.CreateBuilder();
+
+            builder.UseMauiApp<App>().UseMauiCommunityToolkit();
+
             builder
                 .UseMauiApp<App>()
                 .UseMauiCommunityToolkit()
