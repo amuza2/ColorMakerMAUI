@@ -90,9 +90,10 @@
                        FontSize="18"
                        FontAttributes="Bold"
                        HorizontalOptions="Center"
-                       VerticalOptions="Center"/>
-                <Image Source="copy.svg"
-                       Margin="20,0,0,0"/>
+                       VerticalOptions="Center"
+                       Margin="50,0,0,0"/>
+                <ImageButton Source="copy.svg"
+                             Clicked="ImageButton_Clicked"/>
             </HorizontalStackLayout>
         </Frame>
         <Frame Grid.Row="5"
